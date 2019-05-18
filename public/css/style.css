@@ -1,0 +1,58 @@
+/* font-family: 'Reenie Beanie', cursive;
+font-family: 'Arvo', serif; */
+
+
+h2 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    grid-column: 1 / span 3;
+    background: cornflowerblue;
+}
+
+select {
+    background: cornflowerblue;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center center;
+}
+
+section {
+    font-family: 'Arvo', serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 5px;
+}
+
+.title {
+    grid-column: 3;
+}
+
+.year {
+    grid-column: 4;
+}
+
+.description {
+    grid-column: 1 / span 5;
+    grid-row: 2 / span 2;
+}
+
+.rt-score {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.director {
+    grid-column: 3 / span 2;
+    grid-row: 4;
+
+}
+
+.producer {
+    grid-column: 5;
+    grid-row: 4;
+
+}

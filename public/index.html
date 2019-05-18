@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ghibli Films</title>
-    <script type="text/javascript" src="js/bundle.js"></script>`
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Reenie+Beanie&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h2>The Films of Miyazaki</h2>
+            <select name="select-title" id="select-title" >
+                <option disabled selected>Select Title</option>
+            </select>
+            <select name="select-decade" id="select-decade">
+                <option disabled selected>Select Decade</option>
+            </select>
+            <select name="select-rating" id="select-rating">
+                <option disabled selected>Select Rating</option>
+            </select>
+    </header>
     
+    <section class="film-detail">
+        <div class="title">Title</div>
+        <div class="year">Year</div>
+        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="rt-score">Rotten Tomatos</div>
+        <div class="director">Director</div>
+        <div class="producer">Producer</div>
+    </section>
+
 </body>
 </html>  
